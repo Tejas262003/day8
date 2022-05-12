@@ -1,0 +1,25 @@
+#t1{background-color:blue;
+    width:100vw;height:100vh;
+    font-size: 40px;
+}
+            @media (max-width: 768px) {
+                #t1{
+                    background-color:aqua;
+                }
+            }
+            @media (max-width: 992px) {
+                #t1{
+                    background-color:green;
+                    font-size:30px;
+                }
+            }
+            @media (min-width: 1201px) {
+                #t1{
+                    background-color:yellow;
+                    font-size:100px;
+                }
+            }
+            #t1:hover{
+                color: red;
+            
+            }
